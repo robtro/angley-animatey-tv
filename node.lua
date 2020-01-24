@@ -3,7 +3,7 @@ gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
 sys.set_flag("slow_gc")
 
 util.resource_loader{
-    "shader31c3.frag";
+    "shader.frag";
     "noise.png";
     "tiles.png";
 }
