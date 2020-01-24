@@ -17,7 +17,7 @@ function node.render()
     gl.perspective(80 + math.cos(now/5) * 3, x + math.sin(now/14)*10, y + math.cos(now/14.4)*20, -100, x, y, 0)
     gl.rotate(math.cos(now/9)*5, 0, 0, 1)
 
-    shader31c3:use{
+    shader:use{
         time = now / 1234.5;
         noise = noise;
         tile_res = {16, 16};
